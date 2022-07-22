@@ -6,7 +6,7 @@ Um guiche só pode vender caso tenha ingressos, se um guiche tentar vender sem t
 O programa foi feito para colocar em prática o uso do conceito de filas e pilhas em C, a fila é utilizado na fila de pessoas e a pilha na pilha de ingressos do guiche.  
 A pilha e a fila foi implementada tanto estática como dinamica, só é preciso alterar entre as bibliotecas no cabeçalho  
 
-#include "FilaDinamica.h"
-#include "PilhaDinamica.h"
-#include "FilaEstatica.h"
-#include "PilhaEstatica.h"
+#include "FilaDinamica.h"  
+#include "PilhaDinamica.h"  
+#include "FilaEstatica.h"  
+#include "PilhaEstatica.h"  
