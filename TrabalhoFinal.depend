@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1658462539 source:d:\downloads\trabalhofinal (2)\trabalhofinal\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaEstatica.h"
+	"PilhaEstatica.h"
+
+1658462539 d:\downloads\trabalhofinal (2)\trabalhofinal\filaestatica.h
+	<string.h>
+
+1658462539 d:\downloads\trabalhofinal (2)\trabalhofinal\pilhaestatica.h
+

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1570478665 source:c:\users\rafael\desktop\programas de c\trabalho2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaDinamica.h"
+	"PilhaEstatica.h"
+
+1570478632 c:\users\rafael\desktop\programas de c\trabalho2\filadinamica.h
+	<string.h>
+
+1570475124 c:\users\rafael\desktop\programas de c\trabalho2\pilhadinamica.h
+
+1570478632 c:\users\rafael\desktop\programas de c\trabalho2\pilhaestatica.h
+
