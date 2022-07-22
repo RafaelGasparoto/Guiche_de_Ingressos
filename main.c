@@ -67,10 +67,13 @@ int main()
 
     do
     {
+        printf("Comando (chega, vende, carrega): ");
         scanf("%s", comando); //armazena o comando que quer fazer
         if(strcmp(comando, "chega") == 0)//avalia o comando, caso for "chega" entra na condição
         {
+            printf("Nome: ");
             scanf("%s", nome);//armazena o nome da pessoa
+            printf("Quantidade de ingressos: ");
             scanf("%d", &ingressos);//armazena a quantidade de ingressos
             if(menorfila(f0, f1))//avalia qual é a menor fila
             {
@@ -85,7 +88,10 @@ int main()
         }
         else if(strcmp(comando, "carrega") == 0)//avalia o comando, caso for "carrega" entra na condição
         {
-            scanf("%d %d %d", &guiche, &A, &B);//guiche que quer carregar, numero do ingresso A até o B
+            printf("Guiche: ");
+            scanf("%d", &guiche);//guiche que quer carregar
+            printf("Numero dos ingressos (ex: 5 ate 15): ");// numero do ingresso A até o B
+            scanf("%d %d", &A, &B);
 
             if(guiche == 0)//se o guiche for o 0
                 pushp(p0, A, B, guiche);//empilha a pilha do guiche 0
@@ -94,6 +100,7 @@ int main()
         }
         else if(strcmp(comando, "vende") == 0)//avalia o comando, caso for "vende" entra na condição
         {
+            printf("Numero do guiche (0 ou 1): ");
             scanf("%d", &guiche);//guiche que quer fazer a venda
 
             if(guiche == 0)//caso for o guiche 0
@@ -113,6 +120,8 @@ int main()
             printf("Comando Invalido.\n");//caso a pessoa digite um comando que não existe
             fflush(stdin);//limpa o buffer para o caso de um comando invalido
         }
+        system("Pause");
+        system("cls");
         //printf("%d %d %d %d\n", f0->tam, f1->tam, p0->quantidade, p1->quantidade);
     }while(strcmp(comando, "fim") != 0);
     return 0;
